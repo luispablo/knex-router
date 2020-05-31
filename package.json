@@ -1,0 +1,33 @@
+{
+  "name": "knex-router",
+  "version": "1.0.0",
+  "description": "Expose your knex managed database through Restful API Express routes",
+  "main": "dist/knexRouter.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luispablo/knex-router.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "keywords": [
+    "knex",
+    "router",
+    "express",
+    "middleware",
+    "rest",
+    "json",
+    "api"
+  ],
+  "author": "@luispablo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/luispablo/knex-router/issues"
+  },
+  "homepage": "https://github.com/luispablo/knex-router#readme"
+}
